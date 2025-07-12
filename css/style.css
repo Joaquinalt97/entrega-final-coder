@@ -310,205 +310,71 @@ footer div img {
 
 /*  media quary  */
 
-@media (max-width: 1200px) {
-    .grid-container {
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 20px;
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (min-width: 992px) {
+    .destacados div {
+        display: flex;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
     }
 
-    .mapa iframe {
-        width: 100%;
-        height: 180px;
-    }
-
-    .destacados div,
     .pago div,
     .envio div {
-        gap: 50px;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 1rem;
+        justify-items: center;
     }
 }
 
-@media (max-width: 900px) {
-    .hero {
-        height: 400px;
+@media (min-width: 577px) and (max-width: 991px) {
+    .destacados div {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
     }
 
-    .hero div {
-        padding: 100px 10px;
-    }
-
-    .hero h2 {
-        font-size: 32px;
-    }
-
-    .hero p {
-        font-size: 18px;
-    }
-
-    .marca {
-        height: 400px;
-    }
-
-    .marca div {
-        padding: 30px 10px;
-    }
-
-    .marca div h3 {
-        font-size: 22px;
-    }
-
-    .marca div p {
-        font-size: 16px;
-    }
-
-    .carousel-inner img {
-        height: 300px;
-    }
-
-    .destacados div,
     .pago div,
     .envio div {
-        gap: 30px;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .destacados article {
-        width: 90vw;
-        height: auto;
-    }
-
-    .destacados article img {
-        width: 100%;
-        height: 180px;
-    }
-
-    .pago div img,
-    .envio div img {
-        width: 60px;
-        height: 60px;
-        margin: 20px;
-    }
-
-    .envio div img {
-        width: 100px;
-        height: 100px;
-        margin: 20px;
-    }
-
-    .grid-container {
-        grid-template-columns: 1fr 1fr;
-        gap: 10px;
-    }
-
-    .mapa iframe {
-        width: 100%;
-        height: 120px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        justify-items: center;
     }
 }
 
-@media (max-width: 600px) {
-    header h1 {
-        font-size: 28px;
-        padding: 10px;
-    }
-
-    .hero {
-        height: 220px;
-    }
-
-    .hero div {
-        padding: 40px 5px;
+@media (max-width: 576px) {
+    h1 {
+        font-size: 2rem;
+        text-align: center;
     }
 
     .hero h2 {
-        font-size: 20px;
+        font-size: 1.2rem;
     }
 
-    .hero p {
-        font-size: 12px;
-        padding: 5px;
+    .destacados div {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
     }
 
-    .marca {
-        height: 220px;
-    }
-
-    .marca div {
-        padding: 10px 5px;
-    }
-
-    .marca div h3 {
-        font-size: 16px;
-    }
-
-    .marca div p {
-        font-size: 12px;
-    }
-
-    .carousel-inner img {
-        height: 120px;
-    }
-
-    .destacados div,
     .pago div,
     .envio div {
-        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    footer {
+        display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 5px;
-    }
-
-    .destacados article {
-        width: 95vw;
-        margin: 10px 0;
-        height: auto;
-    }
-
-    .destacados article img {
-        width: 100%;
-        height: 100px;
-    }
-
-    .pago div img,
-    .envio div img {
-        width: 40px;
-        height: 40px;
-        margin: 10px;
-    }
-
-    .envio div img {
-        width: 60px;
-        height: 60px;
-        margin: 10px;
-    }
-
-    .whatsapp {
-        right: 10px;
-        bottom: 10px;
-    }
-
-    .grid-container {
-        grid-template-columns: 1fr;
-        gap: 5px;
-        padding: 5px;
-    }
-
-    .grid-item {
-        font-size: 16px;
-        margin: 10px 0;
-    }
-
-    .mapa iframe {
-        width: 100%;
-        height: 80px;
-    }
-
-    .instagram img,
-    .facebook img,
-    .x img {
-        width: 40px;
-        height: 40px;
-        margin: 10px;
+        gap: 0.5rem;
     }
 }
