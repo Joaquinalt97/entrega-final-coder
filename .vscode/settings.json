@@ -1,0 +1,7 @@
+{
+    "workbench.editor.enablePreview": true,
+    "window.density.editorTabHeight": "default",
+    "terminal.integrated.commandsToSkipShell": [
+        ""
+    ]
+}
