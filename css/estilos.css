@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
 body {
     font-family: "Bebas Neue", sans-serif;
@@ -8,8 +8,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
-/*header*/
 
 header {
     background-image: url(../img/fondo/pexels-maxandrey-1197095.jpg);
@@ -34,8 +32,6 @@ header h1 {
 .nav-item a {
     color: black;
 }
-
-/*main*/
 
 .hero {
     width: 100%;
@@ -65,7 +61,6 @@ header h1 {
 }
 
 /* destacados */
-
 .carousel-inner {
     background-color: black;
     padding: 5px;
@@ -109,7 +104,6 @@ header h1 {
 }
 
 /* contacto */
-
 .formulario {
     background-color: #0e0e0e;
     display: flex;
@@ -166,7 +160,6 @@ header h1 {
     outline: 1px solid #1e92e9;
 }
 
-
 .btn:hover {
     background-color: #1e92e9;
 }
@@ -195,7 +188,7 @@ header h1 {
 
 .destacados article {
     background: #140000;
-    background: linear-gradient(1deg, rgba(20, 0, 0, 1) 0%, rgba(2, 99, 0, 1) 50%, rgba(0, 138, 0, 1) 75%, rgba(7, 133, 0, 1) 100%);
+    background: linear-gradient(1deg, rgb(20, 0, 0) 0%, rgb(2, 99, 0) 50%, rgb(0, 138, 0) 75%, rgb(7, 133, 0) 100%);
     width: 250px;
     height: 350px;
     border: 1px solid green;
@@ -208,7 +201,7 @@ header h1 {
     height: 250px;
 }
 
-.destacados article img{
+.destacados article img {
     transition: 3s;
 }
 
@@ -250,7 +243,7 @@ header h1 {
     flex-wrap: wrap;
     gap: 100px;
     max-width: 100%;
-    padding: 1px;
+    padding: 15px;
 }
 
 .pago div img {
@@ -260,6 +253,7 @@ header h1 {
 
 .envio {
     background-image: url(../img/fondo/f.elconfidencial.com_original_d9e_66d_793_d9e66d793adbc994841e60850a17e61c.jpg);
+    border: solid black;
 }
 
 .envio h3 {
@@ -289,8 +283,6 @@ header h1 {
     bottom: 50px;
 }
 
-/*footer*/
-
 footer {
     background-image: url(../img/fondo/fondo-de-hormigon-pintado.jpg);
     background-repeat: no-repeat;
@@ -315,8 +307,6 @@ footer div img {
     width: 75px;
     height: 75px;
 }
-
-/*  media query  */
 
 img {
     max-width: 100%;
@@ -386,3 +376,5 @@ img {
         gap: 0.5rem;
     }
 }
+
+/*# sourceMappingURL=estilos.css.map */

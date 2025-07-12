@@ -1,0 +1,23 @@
+header {
+    background-image: url(../img/fondo/pexels-maxandrey-1197095.jpg);
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+header h1 {
+    padding: 30px;
+    font-weight: 60px;
+    text-align: center;
+    font-size: 50px;
+    color: green;
+}
+
+.container-fluid :hover {
+    color: green;
+}
+
+.nav-item a {
+    color: black;
+}
