@@ -25,114 +25,6 @@
     font-size: 30px;
 }
 
-/* destacados */
-
-.carousel-inner {
-    background-color: black;
-    padding: 5px;
-    width: 100%;
-    height: 500;
-}
-
-.carousel-inner img {
-    width: 100%;
-    height: 600px;
-    object-fit: cover;
-}
-
-/* nosotros */
-.marca {
-    background-image: url(../img/fondo/pexels-albinberlin-919073.jpg);
-    width: 100%;
-    height: 800px;
-    text-align: center;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border: solid 1px black;
-}
-
-.marca div {
-    padding: 50px;
-    text-align: center;
-}
-
-.marca div h3 {
-    padding: 5px;
-    font-size: 30px;
-    color: white;
-}
-
-.marca div p {
-    padding: 5px;
-    font-size: 25px;
-    color: rgb(1, 165, 116);
-}
-
-/* contacto */
-
-.formulario {
-    background-color: #0e0e0e;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
-
-.formulario {
-    background-image: url(../img/fondo/fondo-de-hormigon-pintado.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.form-content {
-    padding: 20px;
-    width: 700px;
-    border-radius: 25px;
-}
-
-.form-content h2 {
-    text-align: center;
-    color: white;
-    font-size: 40px;
-    margin-bottom: 2px;
-}
-
-.form {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
-.label-form {
-    text-align: center;
-    font-size: 20px;
-    color: rgb(255, 255, 255);
-    margin-bottom: 10px;
-}
-
-.input-form,
-.tex-form {
-    padding: 17px 14px;
-    background-color: #333646;
-    border: 0;
-    font-size: 15px;
-    color: white;
-    margin-bottom: 20px;
-    border-radius: 10px;
-}
-
-:focus {
-    outline: 1px solid #1e92e9;
-}
-
-
-.btn:hover {
-    background-color: #1e92e9;
-}
-
-/* destacados */
 .destacados {
     background-image: url(../img/fondo/f.elconfidencial.com_original_d9e_66d_793_d9e66d793adbc994841e60850a17e61c.jpg);
     object-fit: cover;
@@ -211,7 +103,7 @@
     flex-wrap: wrap;
     gap: 100px;
     max-width: 100%;
-    padding: 15px;
+    padding: 1px;
 }
 
 .pago div img {
@@ -221,7 +113,6 @@
 
 .envio {
     background-image: url(../img/fondo/f.elconfidencial.com_original_d9e_66d_793_d9e66d793adbc994841e60850a17e61c.jpg);
-    border: solid black;
 }
 
 .envio h3 {
@@ -249,4 +140,4 @@
     position: fixed;
     right: 50px;
     bottom: 50px;
-}
+} 
