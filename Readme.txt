@@ -1,3 +1,4 @@
+*pagina ficticia con fines de estudio*
 Sitio Web de Artículos para el Lavado Automotor
 Este repositorio contiene el desarrollo del sitio web para la venta de artículos destinados al lavado y cuidado automotor.
 
