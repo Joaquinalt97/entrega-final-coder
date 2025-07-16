@@ -1,20 +1,336 @@
-/* Error: The default namespace "" is not a valid Sass identifier.
- * 
- * Recommendation: add an "as" clause to define an explicit namespace.
- *   ,
- * 1 | @use "";
- *   | ^^^^^^^
- *   '
- *   scss\components\_main.scss 1:1  @import
- *   scss\estilos.scss 4:9           root stylesheet */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: The default namespace "" is not a valid Sass identifier.\a\aRecommendation: add an "as" clause to define an explicit namespace.\a   \2577 \a 1 \2502  @use "";\d\a   \2502  ^^^^^^^\a   \2575 \a   scss\\components\\_main.scss 1:1  @import\a   scss\\estilos.scss 4:9           root stylesheet';
+body {
+  font-family: "Bebas Neue", sans-serif;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* destacados */
+.carousel-inner {
+  background-color: black;
+  padding: 5px;
+  width: 100%;
+  height: 500;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+/* nosotros */
+.marca {
+  background-image: url(../img/fondo/pexels-albinberlin-919073.jpg);
+  width: 100%;
+  height: 800px;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: solid 1px black;
+}
+
+.marca div {
+  padding: 50px;
+  text-align: center;
+}
+
+.marca div h3 {
+  padding: 5px;
+  font-size: 30px;
+  color: white;
+}
+
+.marca div p {
+  padding: 5px;
+  font-size: 25px;
+  color: rgb(1, 165, 116);
+}
+
+/* contacto */
+.formulario {
+  background-color: #0e0e0e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.formulario {
+  background-image: url(../img/fondo/fondo-de-hormigon-pintado.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form-content {
+  padding: 20px;
+  width: 700px;
+  border-radius: 25px;
+}
+
+.form-content h2 {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  margin-bottom: 2px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.label-form {
+  text-align: center;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+}
+
+.input-form,
+.tex-form {
+  padding: 17px 14px;
+  background-color: #333646;
+  border: 0;
+  font-size: 15px;
+  color: white;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+:focus {
+  outline: 1px solid #1e92e9;
+}
+
+.btn:hover {
+  background-color: #1e92e9;
+}
+
+header {
+  background-image: url(../img/fondo/pexels-maxandrey-1197095.jpg);
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+header h1 {
+  padding: 30px;
+  font-weight: 60px;
+  text-align: center;
+  font-size: 50px;
+  color: green;
+}
+
+.container-fluid :hover {
+  color: green;
+}
+
+.nav-item a {
+  color: black;
+}
+
+.hero {
+  width: 100%;
+  height: 700px;
+  text-align: center;
+  background-image: url(../img/fondo/photo-1607860108855-64acf2078ed9.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hero div {
+  padding: 250px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 50px;
+  color: white;
+}
+
+.hero p {
+  padding: 10px;
+  color: white;
+  font-size: 30px;
+}
+
+.destacados {
+  background-image: url(../img/fondo/f.elconfidencial.com_original_d9e_66d_793_d9e66d793adbc994841e60850a17e61c.jpg);
+  object-fit: cover;
+}
+
+.destacados h2 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.destacados div {
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 200px;
+  padding: 25px;
+}
+
+.destacados article {
+  background: #140000;
+  background: linear-gradient(1deg, rgb(20, 0, 0) 0%, rgb(2, 99, 0) 50%, rgb(0, 138, 0) 75%, rgb(7, 133, 0) 100%);
+  width: 250px;
+  height: 350px;
+  border: 1px solid green;
+  margin: 20px;
+  text-align: center;
+}
+
+.destacados article img {
+  width: 245px;
+  height: 250px;
+}
+
+.destacados article img {
+  transition: 3s;
+}
+
+.destacados article img:hover {
+  transform: scale(1.2);
+}
+
+.destacados article h3 {
+  margin: 10px;
+}
+
+.destacados article a {
+  color: white;
+  background-color: black;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.destacados article a:active {
+  color: green;
+  transition: 0.5s;
+}
+
+.pago {
+  background-image: url(../img/fondo/f.elconfidencial.com_original_d9e_66d_793_d9e66d793adbc994841e60850a17e61c.jpg);
+}
+
+.pago h3 {
+  padding: 10px;
+  font-size: 30px;
+  color: white;
+  background-color: #333646;
+  text-align: center;
+}
+
+.pago div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+  max-width: 100%;
+  padding: 1px;
+}
+
+.pago div img {
+  width: 75px;
+  height: 75px;
+}
+
+.envio {
+  background-image: url(../img/fondo/f.elconfidencial.com_original_d9e_66d_793_d9e66d793adbc994841e60850a17e61c.jpg);
+}
+
+.envio h3 {
+  color: white;
+  background-color: #333646;
+  text-align: center;
+  padding: 15px;
+}
+
+.envio div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+  max-width: 100%;
+}
+
+.envio div img {
+  margin: 50px;
+  width: 150px;
+  height: 150px;
+}
+
+.whatsapp {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+}
+
+footer {
+  background-image: url(../img/fondo/fondo-de-hormigon-pintado.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border: solid black 3px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25px;
+}
+
+footer div img {
+  padding: 5px;
+  width: 75px;
+  height: 75px;
+}
+
+/*  media query  */
+@media screen and (max-width: 830) {
+  .destacados div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 678px) {
+  .hero div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .hero h2 {
+    font-size: 40px;
+  }
+
+  .hero p {
+    font-size: 20px;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
